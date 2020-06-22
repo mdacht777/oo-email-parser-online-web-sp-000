@@ -10,8 +10,8 @@ class EmailAddressParser
   end
   
   def parse
-    @str[" "]= ", "
+    @str[", "]= " "
     puts @str
-    @str.split(", ")
+    @str.split(" ")
   end
 end
