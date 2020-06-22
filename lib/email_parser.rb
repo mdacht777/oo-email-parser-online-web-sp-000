@@ -5,11 +5,11 @@
 
 class EmailAddressParser
   def initialize(str)
-    str 
+    @str = str 
     puts str
   end
   
-  def parse
-    
+  def self.parse
+    @str
   end
 end
