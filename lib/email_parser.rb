@@ -10,7 +10,7 @@ class EmailAddressParser
   end
   
   def parse
-    @str[", "]= " "
+    @str.gsub(", ", " ")
     puts @str
     @str.split(" ")
   end
