@@ -7,4 +7,7 @@ class EmailAdressParser
   def initialize(str)
     puts str
   end
+  
+  def parse
+  end
 end
