@@ -16,5 +16,6 @@ class EmailAddressParser
     puts @str
     temp << @str.split(" ")
     @str.split(" ")
+    temp
   end
 end
