@@ -14,7 +14,7 @@ class EmailAddressParser
     temp=[]
     @str.gsub!(", ", " ")
     puts @str
-    temp << 
+    temp << @str.split(" ")
     @str.split(" ")
   end
 end
