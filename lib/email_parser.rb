@@ -9,7 +9,7 @@ class EmailAddressParser
     puts str
   end
   
-  def self.parse
+  def parse
     @str
   end
 end
