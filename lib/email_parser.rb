@@ -17,7 +17,6 @@ class EmailAddressParser
     @str.split(" ").each { |a|
       temp << a if !temp.include?(a) 
     }
-    @str.split(" ")
     temp
   end
 end
