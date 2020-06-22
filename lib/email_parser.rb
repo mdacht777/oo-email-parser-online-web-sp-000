@@ -11,10 +11,10 @@ class EmailAddressParser
   end
   
   def parse
-    temp=[]
+    @temp=[]
     @str.gsub!(", ", " ")
     puts @str
-    temp << @str.split(" ")
-    temp
+    @temp << @str.split(" ")
+    @temp
   end
 end
